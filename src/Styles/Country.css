@@ -1,0 +1,39 @@
+.Country-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
+    place-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Country{
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.Country-flag{
+    height: 200px;
+}
+.Country-flag img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Country-info{
+    text-align: left;
+    padding-left: 10px;
+    background-color: #eee;
+    border: 2px solid transparent;
+    
+}
+
+.Country.dark{
+    border: 1px solid #283747;
+}
+
+.Country-info.dark{
+    background-color: #283747;
+}
